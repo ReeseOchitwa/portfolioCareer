@@ -9,7 +9,7 @@ This project is a sample portfolio page made during the CareerFoundry beginner w
 
 - <b>HTML</b> 
 - <b>CSS</b>
-- <b>JavaScript</b
+- <b>JavaScript</b>
 - <b>freeCodeCamp</b>
 
 <h2>Environments Used </h2>
