@@ -1,0 +1,19 @@
+let emailElement = document.querySelector('#email');
+let messageElement = document.querySelector('#message');
+console.log(emailElement)
+
+let submitButton = document.querySelector('#submit-button');
+submitButton.addEventListener('click', function(e){
+	e.preventDefault();
+
+	let emailValue = emailElement.value;
+	let messageValue = messageElement.value;
+
+	if (emailValue.includes('@')){
+	//All good
+		alert('Thank you for your message')
+	} else {
+	//Error
+		alert('Oh no. That does not look like a valid email adress. Please try again')
+	}
+})
